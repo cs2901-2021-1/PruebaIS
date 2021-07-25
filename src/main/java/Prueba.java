@@ -2,7 +2,7 @@ public class Prueba {
     String nombre;
     int edad;
 
-    Prueba() {
+    public Prueba() {
         nombre = "Jorge";
         edad = 19;
     }
@@ -21,6 +21,10 @@ public class Prueba {
 
     public void setEdad(int edad) {
         this.edad = edad;
+    }
+
+    public int anyFly() {
+        return edad*10;
     }
 
 }
